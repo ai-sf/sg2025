@@ -1,0 +1,54 @@
+---
+layout: page
+title: Speaker invitati
+---
+
+
+<p>
+	{{ site.data.speaker.description }}
+</p>
+
+<ul class="collection id=speakerinvitati">
+	{% for item in site.data.speaker.content %}
+	<li class="collection-item avatar" id="{{ item.id }}">
+		{% if item.img != nil %}
+		<img src="{{ site.url }}/img/speaker/{{ item.img }}" alt="" class="circle" style="object-fit: cover">
+		{% endif %}
+		{% if item.group != nil %}
+		{% for foto in item.group %}
+		<img src="{{ site.url }}/{{ foto.foto }}" alt="" style="width:8%">
+		{% endfor %}
+		<br />
+		{% endif %}
+		{% if item.img == nil %}
+		{% if item.group == nil %}
+		<img src="{{ site.url }}/img/speaker/default.png" alt="" class="circle">
+		{% endif %}
+		{% endif %}
+		<span class="title">
+			<b>{{ item.nome }}</b>
+		</span>
+		<br />
+		<span>
+			<i>{{ item.uni }}</i>
+		</span>
+		<br /><br />
+		{% if item.bio != nihil %}
+		<p class="paragraph" style="text-align:justify">
+			{{ item.bio }}
+		</p>
+		{% endif %}
+		<br />
+		{% if item.title != nil %}
+		<p class="paragraph" style="color:{{site.data.generic.color1}}"><b>{{item.title}}</b></p>
+		<p class="paragraph" style="text-align:justify">{{ item.abstract }}</p>
+		{% endif %}
+
+		{% if item.slides != nil %}
+		<br />
+		<p class="paragraph"><a href="{{site.url}}/files/Slides/{{item.slides}}" target="_blank" class="blue-text"> <i
+					class="fa fa-download" aria-hidden="true"></i> Scarica</a> le slides dell'intervento<br><br></p>
+	</li>
+	{% endif %}
+	{% endfor %}
+</ul>

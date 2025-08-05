@@ -2,29 +2,29 @@
   <div class="container">
     <div class="row">
       <div class="col l6 m6 s12">
-        <h5 class="white-text">{{ site.data.footer.title }}</h5>
-        <p class="grey-text text-lighten-4">{{ site.data.footer.descr }}</p>
+        <h5>{{ site.data.footer.title }}</h5>
+        <p>{{ site.data.footer.descr }}</p>
       </div>
       <div class="col l3 m6 s6">
-        <h5 class="white-text">Contact</h5>
+        <h5>Contact</h5>
         <ul>
           {% for item in site.data.footer.contact %}
           <li>{{ item.name }}</li>
-          <li><a class="white-text" href="mailto:{{ item.mail }}">{{ item.mail }}</a></li>
+          <li><a  href="mailto:{{ item.mail }}">{{ item.mail }}</a></li>
           {% endfor %}
         </ul>
       </div>
       <div class="col l3 m6 s6">
-        <h5 class="white-text">Connect</h5>
+        <h5>Connect</h5>
         <ul>
           {% for item in site.data.footer.connect %}
           <li>
             {% if item.facebook %}
-            <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/fb_logo.png"></a>
+            <a href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/fb_logo.png" style="vertical-align: middle; margin-right: .5em; margin-bottom: .5em;">{{ item.user }}</a>
             {% elsif item.instagram %}
-            <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/insta_logo.png"></a>
+            <a href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/insta_logo.png" style="vertical-align: middle; margin-right: .5em; margin-bottom: .5em;">{{ item.user }}</a>
             {% elsif item.twitter %}
-            <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/tw_logo.png"></a>
+            <a href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/tw_logo.png" style="vertical-align: middle; margin-right: .5em; margin-bottom: .5em;">{{ item.user }}</a>
             {% endif %}
           </li>
           {% endfor %}

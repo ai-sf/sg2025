@@ -1,0 +1,42 @@
+description:
+
+content:
+  - nome: "Araceli Venegas-Gomez"
+    id: venegas-gomez
+    uni: "QURECA"
+    img: "venegas-gomez.webp"
+    title: "My quantum journey"
+    bio: ""
+    abstract: "It is common to hear that once you study physics, you end up either doing research or going to industry. In a career path, there is no either or; your professional experience is built day by day by your choices and the skills you develop. I studied aerospace engineering and ended up working in industry, for the number one European multinational aerospace and defence corporation. At that time, my career development was settled, and I would have become one of the leading managers. However, I asked myself the questions: what do I want to do? What makes me happy? During this talk I will take you through my professional journey, how I built QURECA, and how we support the quantum ecosystem globally."
+    link:
+    slides:
+
+  - nome: "Antigoni Messaritaki"
+    id: messaritaki
+    uni: "IOP Publishing"
+    img: "messaritaki.webp"
+    title: "Unique Career Paths in Quantum: Embracing the Journey"
+    bio: ""
+    abstract: "Your career journey after you graduate will be unique: it’s a personalized path, shaped by your academic backgrounds, skills, personal interests and market demands. As a recent graduate or an early-career physicist, you have a myriad of career options open to you, as your expertise are in high demand across a variety of sectors from healthcare to data science and beyond. If you have expertise in quantum science, you are uniquely positioned to make your mark on industry. According to the State of Quantum 2024 report, 33 countries around the world have government initiatives or national strategies in quantum technology. So there is also a substantial and growing need to build a quantum workforce with the necessary physics knowledge and quantum proficiency. But there is generally significant growth of physics-based roles in other sectors such as green energy, engineering and data science too. Physics skills have always been valued by many industries even those not directly related to physical sciences, such as finance. The physics know-how is considered an advantage, as is the ability to creatively solve complex problems. But most jobs require more than just scientific expertise--they generally ask for additional transferable skills that will enable candidates to successfully apply their scientific knowledge within the workplace. I have experienced that first hand by pursuing a career in scientific publishing. I will share my own career journey with you as well as the non-conventional career journeys of some highly successful physicists and offer insights on the demands for physics expertise in the current job market."
+    link:
+    slides:
+
+  - nome: "Michela Nazzaro"
+    id: nazzaro
+    uni: "Università degli Studi di Napoli Federico II e Quantum Outreach & Education"
+    img: "nazzaro.webp"
+    title: "QTris: Playing the Theory to Grasp its Logic - An Operational Formalism to Explore the Structure of Quantum Mechanics"
+    bio: ""
+    abstract: "QTris is the quantum version of the classic tic-tac-toe game: a board game designed as a playable formalism of quantum mechanics, grounded in quantum information theory. The entire game dynamics are isomorphic to those of a system composed of 9 qubits: each square of the 3×3 grid corresponds to a qubit (an elementary subsystem); the available actions (represented by playing cards) operate on one or two qubits at a time. The gameplay mirrors the operational structure of a quantum experiment, articulated in its three fundamental phases: preparation, operations, and measurements. Each card encodes an operation that the player can strategically apply to a quantum state, modifying the arrangement of the tiles on the grid to steer the outcome of the game to their advantage. Without relying on metaphors, the game promotes direct and strategic engagement with the core concepts of the theory, offering a form of science communication grounded in authentic accessibility."
+    link:
+    slides:
+
+  - nome: "Caterina Foti"
+    id: foti
+    uni: "Algorithmiq - QPlayLearn"
+    img: "foti.webp"
+    title: "Common (Quantum) People: learning, living and building the Quantum Future"
+    bio: ""
+    abstract: "Quantum mechanics doesn’t just reshape our scientific understanding - it redefines how we think. By challenging our most intuitive notions of reality, it opens space for radically new ideas, technologies, and perspectives. But if we want to build a future shaped by quantum technologies - transforming fields from medicine and materials science to AI and beyond - we need more than algorithms and lab results. We need people: curious, creative, and equipped with the language of quantum thought. In this talk, Dr. Caterina Foti shares reflections from her journey through research, education, and science communication - from her PhD years to her work at Algorithmiq and the development of QPlayLearn. She explores how embracing intuition, navigating uncertainty, and colouring outside disciplinary lines can foster inclusive, interdisciplinary innovation - and help shape a more accessible quantum future."
+    link:
+    slides:

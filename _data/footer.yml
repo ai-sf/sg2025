@@ -8,15 +8,18 @@ contact:
 connect:
   - name: Facebook
     url: "https://it-it.facebook.com/aisf.fisica/"
+    user: "aisf.fisica"
     facebook: true
   - name: Instagram
     url: "https://www.instagram.com/aisf_fisica/"
+    user: "@aisf_fisica"
     instagram: true
   - name: Twitter
     url: "https://twitter.com/aisf_fisica"
+    user: "@aisf_fisica"
     twitter: true
 
 creator:
-  - name: Roberto Ciccarelli
-    mail: roberto.ciccarelli@ai-sf.it
+  - name: Dario Zarcone
+    mail: dario.zarcone@ai-sf.it
 

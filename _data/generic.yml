@@ -1,5 +1,6 @@
-title: Titolo sito
-long_title: "Titolo lungo"
-color1: "#512da8"
-color2: "#512da8"
-color2-light: "#ffbd42"
+title: Sezione Giovani
+long_title: "Sezione Giovani del Congresso SIF 2025"
+color1: "#56113E"
+color2: "#56113E"
+color2-light: "#56113E"
+navbar-font-color: "#ffffff"
