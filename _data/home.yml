@@ -1,7 +1,7 @@
 longname: "<b>Sezione Giovani 2025</b>"
 logo: ""
 who:
-    text: "Tutti/e gli/le studenti/esse possono partecipare"
+    text: "60 studenti/esse da tutta Italia"
 
 when: "Giovedì 25 Settembre 2025, dalle 9 alle 13:00"
 
@@ -12,4 +12,4 @@ slideshow:
     alt: "111° Congresso Nazionale SIF"
     mobile: "img/SG25_totale_cell.webp"
 
-paragraph: "La Società Italiana di Fisica, in collaborazione con il network di giovani ricercatori della European Physical Society (EPS) Young Minds e l'Associazione Italiana Studenti di Fisica (AISF), organizzano dal 2015 la Sezione Giovani, un momento del Congresso SIF espressamente dedicato ad un pubblico giovane, con relazioni che possano favorirne lo sviluppo scientifico e professionale su uno specifico campo della fisica, ogni anno differente. Quest'anno, in occasione dell’anno delle Tecnologie Quantistiche e del Congresso Nazionale della SIF ospitato a Palermo, la Sezione Giovani dal titolo “Start Your Quantum Journey” sarà interamente dedicata al mondo della quantum technology e alle carriere che vi ruotano attorno."
+paragraph: "La Società Italiana di Fisica, in collaborazione con il network di giovani ricercatori della European Physical Society (EPS) Young Minds e l'Associazione Italiana Studenti di Fisica (AISF), organizzano dal 2015 la Sezione Giovani, un momento del <a href='https://2025.congresso.sif.it/'>Congresso SIF 2025</a> espressamente dedicato ad un pubblico giovane, con relazioni che possano favorirne lo sviluppo scientifico e professionale su uno specifico campo della fisica, ogni anno differente. Quest'anno, in occasione dell’anno delle Tecnologie Quantistiche e del Congresso Nazionale della SIF ospitato a Palermo, la Sezione Giovani dal titolo “Start Your Quantum Journey” sarà interamente dedicata al mondo della quantum technology e alle carriere che vi ruotano attorno."
